@@ -1,0 +1,21 @@
+body {
+    background-image: url('https://wallpaperaccess.com/full/1209535.jpg');
+    background-size: cover;
+
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #97bcff;
+    background-color: #dbfaff;
+}
+
+.navbar button {
+    size: large;
+}

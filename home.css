@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 16px 0;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: justify;
+    text-align: left;
+    align-items: center;
+    margin-right: 350px;
+  }
+  
+  .header-btn{
+    position: relative;
+    left: 220px;
+    margin-left: 90px;
+  }
+  .navbar button:hover {
+    text-decoration: underline;
+    background-color: green;
+
+  }
+
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  .navbar img {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    height: 8%;
+    width: 7%;
+    margin-right: 30%;
+    margin-left: 10%;
+  }
+  
+  .carousel-item img {
+    
+    width: 0%;
+    height: 0%;
+  }
+  .department-heading h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .card1 {
+    border: solid #333;
+  }
+  .card2 {
+    border: solid #333;
+  }
+  .card3 {
+    border: solid #333;
+  }
+  .all-cards {
+    margin-top: 10px;
+    padding-top: 30px;
+    gap: 70px;
+    display: flex;
+    padding-left: 90px;
+    background-color: rgb(255, 255, 187);
+  }
+  .events h2 {
+    font-weight: bold;
+    padding-left: 30px;
+  }
+  .card-body {
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+  .modal-button {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 90px;
+  }
+  .alumnicard {
+    border: solid #6b6a6a;
+  }
+
+  .events {
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-left: 200px;
+  }
+  .both {
+    display: flex;
+  }
+
+  footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+  }
+
+  .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer-links a:hover {
+    color: #f0ad4e;
+  }
